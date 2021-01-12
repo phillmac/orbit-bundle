@@ -1,0 +1,29 @@
+{
+    "name": "orbit-bundle",
+    "version": "1.0.0",
+    "description": "Orbit DB Bundle",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phillmac/orbit-bundle.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/phillmac/orbit-bundle/issues"
+    },
+    "homepage": "https://github.com/phillmac/orbit-bundle#readme",
+    "dependencies": {
+        "ipfs": "^0.52.0",
+        "orbit-db": "^0.26.0"
+    },
+    "devDependencies": {
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "scripts": {
+        "build": "npm run build:debug && npm run build:dist",
+        "build:dist": "webpack --config conf/webpack.config.js --sort-modules-by size",
+        "build:debug": "webpack --config conf/webpack.debug.config.js --sort-modules-by size"
+    }
+}

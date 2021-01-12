@@ -1,0 +1,7 @@
+{
+    "appConfig": {
+        "peers": [
+            "/dns4/wrtc-star1.par.dwebops.pub/tcp/443/wss/p2p-webrtc-star/p2p/QmXBY8pmp2ghrnBpbZVx6DRuu1WVszDktCiH8cF1Lsi7yU"
+        ]
+    }
+}
